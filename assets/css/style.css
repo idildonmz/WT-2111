@@ -1,0 +1,56 @@
+
+
+.img-frame {
+  padding: 10px;
+  border: 20px solid #0000;
+  outline: 1px solid #000;
+  outline-offset: -10px;
+  background: conic-gradient(from 90deg at 1px 1px, #0000 25%, #000 0);
+}
+.not-checked:hover{
+  color: rgba(255, 0, 0, 0.856);
+  
+}
+#technologies{
+  width: 7%;
+  padding: 10px;
+  border: 20px solid #0000;
+  outline: 1px solid #000;
+  outline-offset: -10px;
+  background: conic-gradient(from 90deg at 1px 1px, #0000 25%, #000 0);
+}
+.adim-one{
+  background-color: lightseagreen;
+
+}
+.adim-two{
+  background-color: lightseagreen;
+}
+.adim-two::selection{
+  background-color: green;
+}
+
+::-webkit-scrollbar {
+  width: 30px; /* Scrollbar genişliği */
+}
+
+/* Scrollbar arka planı */
+::-webkit-scrollbar-track {
+  background: #1900ff; /* Arka plan rengi */
+}
+
+/* Scrollbar tutamaç (thumb) */
+::-webkit-scrollbar-thumb {
+  background: #ff0000; /* Tutamaç rengi */
+  border-radius: 10px; /* Köşeleri yuvarlama */
+}
+
+/* Scrollbar tutamaç üzerine gelince */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff0080; /* Tutamaç üzerine gelinceki rengi */
+}
+
+/*
+    Selam, üst kısmı ellemenize gerek yok. Örnek olarak koyduğum
+    ekran görüntülerinin biraz daha havalı durmasını sağlıyor sadece :)
+*/
